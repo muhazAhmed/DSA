@@ -14,7 +14,7 @@ function solution(array) {
   return newArr
 }
 var result = solution([1,2,2,3,4,4,5]);
-console.log(result);
+console.log(result);    //otput : [1,2,3,4,5]
 
 // time complexity = O(n)
 //space complexity = O(n^2)
