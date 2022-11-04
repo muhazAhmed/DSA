@@ -28,7 +28,7 @@ const solution = (a, b) => {
   return merged;
 };
 const result = solution([1, 3, 6, 8], [11, 16, 20]);
-console.log(result); //output : [0,3]
+console.log(result); //output : [1,3,6,8,11,16,20]
 
 // Time Complexity = O(n)
 //Space Complexity = O(n^2)
